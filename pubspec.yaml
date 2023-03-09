@@ -1,0 +1,56 @@
+name: Wallpaper
+description: A new Flutter project.
+publish_to: 'none' 
+version: 1.0.0+1
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+
+dependencies:
+  carousel_slider: ^4.2.1
+  cupertino_icons: ^1.0.0
+  cached_network_image: ^3.2.3
+  flutter:
+    sdk: flutter
+  flutter_iconly: ^1.0.2
+  flutter_speed_dial: ^6.2.0
+  flutter_wallpaper_manager: ^0.0.3
+  flutter_cache_manager: ^3.3.0
+  google_mobile_ads: ^2.3.0
+  flutter_lints: ^1.0.0
+  get: 
+  get_storage:
+  gallery_saver: ^2.0.3
+  http: ^0.13.5
+  lottie: ^1.0.0
+  path_provider: ^2.0.12
+  share_plus: ^6.3.1
+  url_launcher: ^6.1.10
+  pull_to_refresh: ^2.0.0
+  dart_code_metrics: ^4.17.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+    
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/categoryimages/
+  - assets/recomendphoto/
+  - assets/flags/
+  - assets/animations/
+  - assets/splashscreenimage/
+  
+  
+  fonts:
+    - family: gilroy-bold
+      fonts:
+        - asset: assets/fonts/Gilroy-Bold.ttf
+    - family: GilroyMedium
+      fonts:
+        - asset: assets/fonts/Gilroy-Medium.ttf
+
